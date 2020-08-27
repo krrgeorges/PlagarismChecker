@@ -1,10 +1,8 @@
-import psycopg2
 from bs4 import BeautifulSoup as bs
 from GooglePowerQuerier import GooglePowerQuerier
 import json
 from nltk.tokenize import sent_tokenize
 import re
-from AnswerParser import AnswerParser
 
 class PlagiarismChecker:
 	"""Generalized Module for thwarting attempts of plagiarism of answer by user.Checked locally insite and globally through GooglePowerQuerier"""
